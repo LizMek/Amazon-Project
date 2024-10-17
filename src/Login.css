@@ -1,0 +1,84 @@
+.login_logo {
+  margin: 10px auto; /* Combining top, bottom, left, and right margin */
+  object-fit: contain;
+  width: 100px;
+}
+
+.login {
+  background-color: white;
+  min-height: 100vh; /* Use min-height instead of height for better responsiveness */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the login container vertically */
+  align-items: center;
+  padding: 20px; /* Add some padding for smaller screens */
+}
+
+.login_container {
+  width: 100%; /* Set width to 100% for mobile responsiveness */
+  max-width: 300px; /* Add max-width to control width on larger screens */
+  padding: 20px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align content centrally */
+}
+
+.login_container > h1 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  text-align: center; /* Center-align the heading */
+}
+
+.login_container > form {
+  width: 100%; /* Ensure form takes up full container width */
+}
+
+.login_container > form > h5 {
+  margin-bottom: 5px;
+  font-size: 14px; /* Slightly larger font for better readability */
+}
+
+.login_container > form > input {
+  height: 35px; /* Increase height for better UX */
+  margin-bottom: 10px;
+  background-color: white;
+  width: 100%; /* Ensure input fields take full width */
+  padding: 5px; /* Add padding for better readability */
+  border: 1px solid lightgray;
+  border-radius: 3px; /* Add a slight border radius */
+  box-sizing: border-box; /* Ensure padding doesn't break the layout */
+}
+
+.login_container > p {
+  margin-top: 15px;
+  font-size: 12px;
+  text-align: center; /* Center-align the paragraph */
+}
+
+.login_signInButton {
+  background: #f1c557;
+  border-radius: 2px;
+  width: 100%;
+  height: 40px; /* Increase button height for better UX */
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  cursor: pointer; /* Add pointer cursor for better UX */
+}
+
+.login__registerButton {
+  border-radius: 2px;
+  width: 100%;
+  height: 40px; /* Increase button height for consistency */
+  border: 1px solid darkgray;
+  background-color: white;
+  cursor: pointer; /* Add pointer cursor for better UX */
+}
+
+.login__registerButton:hover,
+.login_signInButton:hover {
+  opacity: 0.9; /* Add hover effect for better UX */
+}

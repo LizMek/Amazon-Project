@@ -1,0 +1,49 @@
+.lower-header {
+  background-color: #232f3e;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.lower-header__menu {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.lower-header__icon {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.lower-header__links {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lower-header__item {
+  margin-right: 15px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.lower-header__item:hover {
+  color: #ff9900;
+}
+
+.lower-header__dropdown {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.lower-header__arrow {
+  margin-left: 5px;
+  font-size: 10px;
+}
+
+.lower-header__dropdown:hover .lower-header__arrow {
+  color: #ff9900;
+}

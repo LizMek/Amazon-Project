@@ -1,0 +1,9 @@
+[build]
+  publish = "build"         # Path to my frontend build folder
+  functions = "functions"   # Path to my backend functions folder
+
+# Optional: Redirect all routes to my index.html (for single-page applications like React)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
